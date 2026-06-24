@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática da EBAC</title>
+</head>
+<body>
+     <!--Navegação-->
+    <header>
+        <h1>Desenvolvimento Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Seção Sobre Mim -->
+    <section id="sobre">
+
+        <h2>Sobre Mim</h2>
+
+        <p>Olá! Meu nome é Gabriel Jesuino da Conceição e sou um desenvolvedor web em formação. Atualmente, estou aprimorando minhas habilidades técnicas através de projetos práticos na EBAC, focando em criar estruturas web sólidas, limpas e eficientes.</p>
+
+        <p>Busco sempre aplicar as melhores práticas de mercado, como a semântica do HTML5, para garantir que os sites sejam acessíveis e otimizados para motores de busca.</p>
+
+    </section>
+
+    <hr><!-- Linha sutil para separar as seções visualmente -->
+
+    <!-- Seção de Serviços / Especialidades -->
+    <section id="servicos">
+        <h2>Nossas Especialidades</h2>
+        
+        <article>
+            <h3>Design Responsivo</h3>
+            <p>Sites que se adaptam a qualquer tela (celulares, tablets e computadores).</p>
+        </article>
+
+        <article>
+            <h3>Otimização SEO</h3>
+            <p>Melhor rankeamento nos motores de busca para aumentar a visibilidade do seu negócio.</p>
+        </article>
+
+        <article>
+            <h3>Performance e Desempenho</h3>
+            <p>Carregamento rápido e código limpo seguindo os padrões modernos de desenvolvimento.</p>
+        </article>
+    </section>
+
+        <section id="contato">
+            <h2>Fale com um Desenvolvedor</h2>
+            <form action="/index.html" method= "post">
+
+                <fieldset>
+                    <legend>Informações de Contato</legend>
+                     <!--nome-->
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    <!--contato-->
+                    <label for="contato">Contato:</label>
+                    <input type="text" id="contato" name="contato" placeholder="Número para Contato" required>
+                     <!--mensagem-->
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" cols="50" rows="4"></textarea>
+                     <!--Orçamento-->
+                    <button type="submit">Solicitar Orçamento</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+     <!--Política de privacidade-->
+    <footer>
+        <p>&copy: 2026 - Desenvolvimento Web do Gabriel J. Conceição</p>
+        <address>São Paulo, SP</address>
+    </footer>
+</body>
+</html>
